@@ -1,19 +1,19 @@
 <div>
-    <h1> Student list With Using Elequent Model</h1>
+    <h1> Student list With Using Quary Builder</h1>
     {{-- {{ print_r($data) }} --}}
     <table border="1" >
         
         <tr>
             <td> Name</td>
             <td> Email</td>
-            <td> Batch</td>
+            <td>Phone Number</td>
             
         </tr>
-        @foreach ($student as $x )
+        @foreach ($quarybuilder as $x )
         <tr>
             <td> {{$x->name}} </td>
             <td> {{$x->email}}</td>
-            <td> {{$x->batch}}</td>
+            <td> {{$x->phone}}</td>
             
         </tr>
             
